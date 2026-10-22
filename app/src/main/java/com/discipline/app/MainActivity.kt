@@ -12,6 +12,7 @@ import org.json.JSONArray
 import org.json.JSONObject
 import java.text.SimpleDateFormat
 import java.util.*
+import kotlin.math.roundToInt 
 
 data class Habit(
     var id: Long,
